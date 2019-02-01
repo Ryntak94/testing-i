@@ -1,5 +1,5 @@
 # Testing I
-
+-change
 In this project, you will demonstrate proficiency by writing unit tests and production code to satisfy the _Minimum Viable Product_ described below.
 
 Some of the topics covered were:
@@ -27,16 +27,16 @@ In this project, you will **write unit tests and the implementation code** for a
 
 Follow these steps to setup your git _fork_ and _branch_.
 
-- [ ] Fork this repository.
-- [ ] Use GitHub's website to add your project manager as collaborator on **your fork**.
-- [ ] **Clone your forked version** of the repository (**Not Lambda's**!).
-- [ ] Create a new branch: `git checkout -b <firstName-lastName>`.
-- [ ] Commit changes to your `<firstName-lastName>` branch.
+- [X ] Fork this repository.
+- [x ] Use GitHub's website to add your project manager as collaborator on **your fork**.
+- [X ] **Clone your forked version** of the repository (**Not Lambda's**!).
+- [x ] Create a new branch: `git checkout -b <firstName-lastName>`.
+- [X ] Commit changes to your `<firstName-lastName>` branch.
 - [ ] Push often to your branch: `git push origin <firstName-lastName>`.
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge the `<firstName-lastName>` branch into the master branch on your fork. **Please don't merge your own pull request**
+- [X ] Submit a Pull-Request to merge the `<firstName-lastName>` branch into the master branch on your fork. **Please don't merge your own pull request**
 - [ ] Use GitHub's webiste to add your project manager as a reviewer on the pull-request.
 - [ ] Your project manager will count the project as complete by merging the branch back into the master branch of your forked repository.
 
@@ -65,9 +65,9 @@ The following sections list information provided by the client about `items` and
 ### Enhancement
 
 - The enhancement level of an item starts at 0.
-- The maximun enhancement possible is PEN.
-- Enhacing an armor up to 5 cannot fail.
-- Enhacing a weapon up to 7 cannot fail.
+- The maximum enhancement possible is PEN.
+- Enhancing an armor up to 5 cannot fail.
+- Enhancing a weapon up to 7 cannot fail.
 - Enhancement level is displayed as a string with a plus sign ( + ) before the number for levels 1 to 15.
 - Enhancement level of 0 is not displayed.
 - when an item is enhanced, the `name` should be modified to include the enhancement level between square brackets before the item's `name`. Example: the new name of a "Elven Sword" enhanced to 7 would be _"[+7] Elven Sword"_, at DUO would be _"[DUO] Elven Sword"_.
